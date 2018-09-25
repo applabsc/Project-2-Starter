@@ -50,6 +50,25 @@ export default class TodoList extends Component {
 
     deleteTask = i => {
         // i is the index of the task to be deleted
+
+        this.setState(
+            prevState => {
+                // Make a copy of prevState.tasks
+
+                // Delete the task from prevState.tasks
+                // The splice function should be used to delete the task from the array
+                // DOCUMENTATION FOR SPLICE FUNCTION
+                // The splice method can be used to add or remove elements from an array.
+                //    The first argument specifies the location at which to begin adding or removing elements.
+                //    The second argument specifies the number of elements to remove.
+                //    The third and subsequent arguments are optional; they specify elements to be added to the array.
+
+                // YOUR CODE HERE
+
+            },
+        )
+
+
     };
 
     componentDidMount() {
